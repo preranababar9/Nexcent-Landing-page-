@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Client from "./components/Client";
+import Community from "./components/Community";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
      <Header/>
      <Hero/>
      <Client/>
+     <Community/>
      </div>
   );
 }
