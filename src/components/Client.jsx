@@ -14,9 +14,9 @@ export default function Client() {
     <div className=" flex flex-col justify-center items-center  gap-4 pt-12">
 
         <h2 className="items-center text-3xl font-bold text-[#4D4D4D]">Our Clients</h2>
-        <p className="text-[#717171]">We have been working with some Fortune 500+ clients </p>
-        <div className='w-100%'>
-<Marquee autoFill>
+        <p className="text-[#717171] ">We have been working with some Fortune 500+ clients </p>
+        
+<Marquee >
           <img className="mr-10"
         src ={Logo1}
         alt="clients"
@@ -55,7 +55,7 @@ export default function Client() {
         
 
         </Marquee>
-        </div>
+        
     </div>
   )
 }
