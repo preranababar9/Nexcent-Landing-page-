@@ -1,5 +1,6 @@
 import React from 'react';
 import ClientsLogo from "../images/ClientsLogo.png";
+import Marquee from "react-fast-marquee";
 
 export default function Client() {
   return (
@@ -7,10 +8,12 @@ export default function Client() {
 
         <h2 className="items-center text-3xl font-bold text-[#4D4D4D]">Our Clients</h2>
         <p className="text-[#717171]">We have been working with some Fortune 500+ clients </p>
-        <img className=""
+<Marquee>
+          <img className=""
         src ={ClientsLogo}
         alt="clients"
         ></img>
+        </Marquee>
     </div>
   )
 }
