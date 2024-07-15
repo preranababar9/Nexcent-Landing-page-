@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Client from "./components/Client";
 import Community from "./components/Community";
+import Banner from "./components/Banner";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
      <Hero/>
      <Client/>
      <Community/>
+     <Banner/>
      </div>
   );
 }
