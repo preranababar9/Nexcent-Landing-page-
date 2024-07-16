@@ -4,7 +4,7 @@ import { CiMenuBurger } from "react-icons/ci";
 
 export default function Header() {
   return (
-    <div className=" flex justify-around h-[10vh] bg-[#F5F7FA] items-center fixed w-full">
+    <div className="flex justify-around h-[10vh] z-10 bg-[#F5F7FA] items-center fixed w-full">
       <div>
         <img className=''
         src={logo}
