@@ -6,6 +6,7 @@ import Banner from "./components/Banner";
 import Counts from "./components/Counts";
 import Body from "./components/Body";
 import Achievement from "./components/Achievement";
+import Update from "./components/Update";
 
 
 
@@ -20,6 +21,7 @@ function App() {
      <Counts/>
      <Body/>
      <Achievement/>
+     <Update/>
      </div>
   );
 }
