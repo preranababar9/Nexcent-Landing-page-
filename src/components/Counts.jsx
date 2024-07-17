@@ -8,7 +8,7 @@ import { FaHandsPraying } from "react-icons/fa6";
 
 export default function Counts() {
   return (
-    <div className="flex justify-evenly bg-[#F5F7FA] mt-16 items-center py-20">
+    <div className="lg:flex justify-evenly bg-[#F5F7FA] mt-16 items-center py-20 max-md-flex-col">
       <div>
         <h4 className="font-bold text-3xl pb-2">
           Helping a local <br></br>

@@ -11,7 +11,7 @@ import Logo7 from "../images/Logo7.svg";
 
 export default function Achievement() {
   return (
-    <div className="bg-[#F5F7FA] py-20 my-10 ">
+    <div className="bg-[#F5F7FA] py-20 my-10 max-md-flex-col ">
       <div className=" w-full max-w-[1440px] h-full mx-auto flex justify-center  gap-10 items-center  ">
         <div className=" w-1/4">
           <img

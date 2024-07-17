@@ -3,7 +3,7 @@ import banner from "../images/banner.png"
 
 export default function Banner() {
   return (
-    <div className="flex justify-evenly items-center pt-16 pr-10 pl-10">
+    <div className="lg:flex justify-evenly items-center pt-16 pr-10 pl-10  max-md-flex-col">
 
         <div className='w-30%'>
           <img 

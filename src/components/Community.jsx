@@ -7,7 +7,7 @@ export default function Community() {
   return (
         // main div
         <div>
-    <div className="flex flex-col justify-center items-center gap-4 pt-8 ">
+    <div className="flex flex-col justify-center items-center gap-4 pt-8 md:">
         {/* first div */}
         <div className='text-center'> 
                 <h4 className=" text-3xl font-semibold pb-4 text-[#4D4D4D]">Manage your entire community <br></br> <span >in a single system </span></h4>
@@ -16,7 +16,7 @@ export default function Community() {
         </div>
 
 {/* second div */}
-        <div className="flex p-10  justify-around p-[0 144 0 144]  ">
+        <div className="lg:flex p-10  justify-around p-[0 144 0 144] max-md-flex-col ">
 
 
                 <div className="flex flex-col items-center  gap-4">

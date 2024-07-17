@@ -18,7 +18,7 @@ export default function Update() {
         </p>
       </div>
 
-      <div className="flex justify-around ">
+      <div className="lg:flex justify-around  max-md-flex-col">
         {/* 1st Card */}
 
         <div className="mb-10 relative w-82 ">

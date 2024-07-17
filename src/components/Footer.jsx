@@ -8,7 +8,7 @@ import youtube from "../images/youtube.svg";
 
 export default function Footer() {
   return (
-    <div className='bg-black py-14 px-14 w-full flex justify-evenly'>
+    <div className='bg-black py-14 px-14 w-full lg:flex justify-evenly max-md-flex-col'>
 
         <div className=' h-full '>
            <img className='pb-10'
