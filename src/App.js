@@ -16,13 +16,13 @@ function App() {
     <div >
      
      <Hero/>
-     <Client/>
-     <Community/>
-     <Banner/>
-     <Counts/>
+    <Client/>
+       <Community/>
+    <Banner/>
+     {/* <Counts/>
      <Body/>
      <Achievement/>
-     <Update/>
+     <Update/> */}
     
      </div>
   );

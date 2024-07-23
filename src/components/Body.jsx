@@ -3,7 +3,7 @@ import pana from "../images/pana.svg";
 
 export default function Body() {
   return (
-        <div className="lg:flex justify-evenly items-center pt-16 pr-10 pl-10  max-md-flex-col ">
+        <div className="lg:flex justify-evenly items-center pt-16 px-10  max-md-flex-col  ">
 
         <div className='w-30% '>
           <img 

@@ -6,8 +6,8 @@ import icon3 from "../images/icon3.png";
 export default function Community() {
   return (
         // main div
-        <div>
-    <div className="flex flex-col justify-center items-center gap-4 pt-8 md:">
+        <div className='py-20'>
+    <div className="flex flex-col justify-center items-center  py-8">
         {/* first div */}
         <div className='text-center'> 
                 <h4 className=" text-3xl font-semibold pb-4 text-[#4D4D4D]">Manage your entire community <br></br> <span >in a single system </span></h4>
@@ -16,7 +16,7 @@ export default function Community() {
         </div>
 
 {/* second div */}
-        <div className="lg:flex p-10  justify-around p-[0 144 0 144] max-md-flex-col ">
+        <div className="lg:flex p-10  justify-around p-[0 144 0 144]  ">
 
 
                 <div className="flex flex-col items-center  gap-4">
@@ -27,7 +27,7 @@ export default function Community() {
                         ></img>
 
                         <h2 className="font-bold text-2xl text-[#4D4D4D]  text-center">Membership<br></br> Organization</h2>
-                        <p className="text-center text-[#717171] ">Our membership management <br></br>software provides full automation of<br></br> membership renewals and payments</p>
+                        <p className="text-center text-[#717171] pb-10 ">Our membership management <br></br>software provides full automation of<br></br> membership renewals and payments</p>
                 </div>
 
                 <div className="flex flex-col items-center gap-4">
@@ -37,7 +37,7 @@ export default function Community() {
                         ></img>
 
                         <h2 className="font-bold text-2xl text-[#4D4D4D]  text-center">National <br></br> Associations</h2>
-                        <p className="text-center text-[#717171] ">Our membership management <br></br>software provides full automation of<br></br> membership renewals and payments</p>  
+                        <p className="text-center text-[#717171]  pb-10">Our membership management <br></br>software provides full automation of<br></br> membership renewals and payments</p>  
                 </div>
 
                 <div className="flex flex-col items-center gap-4">
