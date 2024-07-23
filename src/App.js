@@ -19,8 +19,8 @@ function App() {
     <Client/>
        <Community/>
     <Banner/>
-     {/* <Counts/>
-     <Body/>
+     <Counts/>
+   {/*  <Body/>
      <Achievement/>
      <Update/> */}
     
