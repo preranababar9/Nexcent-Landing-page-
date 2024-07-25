@@ -19,10 +19,10 @@ function App() {
     <Client/>
        <Community/>
     <Banner/>
-     <Counts/>
-   {/*  <Body/>
-     <Achievement/>
-     <Update/> */}
+    <Counts/>
+    <Body/>
+       {/*<Achievement/>
+      <Update/> */}
     
      </div>
   );

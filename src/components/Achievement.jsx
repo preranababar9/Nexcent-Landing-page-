@@ -11,17 +11,17 @@ import Logo7 from "../images/Logo7.svg";
 
 export default function Achievement() {
   return (
-    <div className="bg-[#F5F7FA] py-20 my-10 max-md-flex-col ">
-      <div className=" w-full max-w-[1440px] h-full mx-auto flex justify-center  gap-10 items-center  ">
-        <div className=" w-1/4">
-          <img
+    <div className="bg-[#F5F7FA] py-20 my-10  ">
+      <div className=" max-md:w-full max-w-[1440px] h-full mx-auto flex  justify-center max-md:flex-col gap-10 items-center  ">
+        <div className=" w-1/4  ">
+          <img 
             className=" "
             src={image}
             alt="banner-img"
           />
         </div>
 
-        <div className="  w-1/2 h-full">
+        <div className="  w-1/2 h-full max-md:flex flex-col justify-center">
           <p className="text-[#717171] pb-6 ">
             Maecenas dignissim justo eget nulla rutrum molestie.
             Maecenaslobortis sem dui, vel rutrum risus tincidunt ullamcorper.
